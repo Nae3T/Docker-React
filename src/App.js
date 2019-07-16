@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           I was changed! on the Feature branch
+          More text from Nae3T
         </p>
         <a
           className="App-link"
