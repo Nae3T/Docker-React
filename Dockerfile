@@ -8,6 +8,7 @@ RUN npm run build
 
 # Run Phase
 FROM nginx
+EXPOSE 80
 COPY --from=builder /app/build /usr/share/nginx/html
 # nginx default command is already order nginx to start, so we do not need to specify CMD command
 
